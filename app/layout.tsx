@@ -18,6 +18,7 @@ const playfair = Playfair_Display({
 
 // --- Configuração Sênior de SEO (Otimização para Buscadores e Redes Sociais) ---
 export const metadata: Metadata = {
+   metadataBase: new URL("https://adriannomaldini.vercel.app"),
   title: {
     default: "Adrianno Maldini | Advogado Criminalista",
     template: "%s | Adrianno Maldini", // Se criar outras páginas, o título se adapta
@@ -34,7 +35,7 @@ export const metadata: Metadata = {
     siteName: "Adrianno Maldini",
     images: [
       {
-        url: "/adr22.png", 
+         url: "https://adriannomaldini.vercel.app/adr22.png", 
         width: 1200,
         height: 630,
         alt: "Dr. Adrianno Maldini - Advogado Criminalista",
@@ -45,7 +46,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Adrianno Maldini | Advogado Criminalista",
     description: "Atuação estratégica e excelência em Direito Penal de Alta Complexidade.",
-    images: ["/adr22.png"], // Garante que fique bonito também se enviarem no Twitter/X
+     images: ["https://adriannomaldini.vercel.app/adr22.png"], 
   },
   robots: {
     index: true,
