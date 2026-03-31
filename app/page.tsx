@@ -3,7 +3,7 @@
 // Aqui eu importo o React e os hooks necessários para o funcionamento do site
 import React, { useState, useEffect } from 'react';
 // Aqui eu importo as ferramentas de animação do framer-motion para deixar o site fluido
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, Variants } from 'framer-motion';
 // Aqui eu importo os ícones que uso no layout. A balança (Scale) e o marcador de mapa (MapPin) estão aqui!
 import { 
   Scale, 
@@ -29,16 +29,15 @@ const meusDados = {
   endereco: "Natal, Rio Grande do Norte, CEP 59064-320",
   sala: "Sala 205",
   escritorio: "Maldini Advogados",
-  instagram: "@maldiniadvogados",
+  instagram: "@adriannomaldini",
   linkMaps: "https://www.google.com/maps/search/?api=1&query=Maldini+Advogados,+Natal,+Rio+Grande+do+Norte,+59064-320"
 };
 
 // Aqui você vai adicionar os nomes das fotos do Dr. Adrianno que estão no seu PC.
 // PASSO IMPORTANTE: Você precisa copiar as suas fotos para dentro da pasta "public" do seu projeto Next.js.
-// Exemplo: se a foto se chama "foto1.jpg" e está na pasta public, mantenha apenas "/foto1.jpg" abaixo.
 const minhasFotos = [
-  "/adr22.png", // Substitua pelo nome exato da sua primeira foto (certifique-se que ela está na pasta public)
-  "/adr1.jpg", // Substitua pelo nome exato da sua segunda foto
+  "/adr1.jpg",  
+  "/adr22.png"  
 ];
 
 // Aqui eu defino os links do menu de navegação que ficam no topo
@@ -51,13 +50,14 @@ const linksNavegacao = [
 
 // --- Minhas Variáveis de Animação ---
 // Aqui eu crio o efeito de "surgir de baixo para cima" (fade in up)
-const animacaoSurgir = {
+// Adicionado o tipo ': Variants' para o TypeScript entender perfeitamente o formato da animação
+const animacaoSurgir: Variants = {
   escondido: { opacity: 0, y: 40 },
-  visivel: { opacity: 1, y: 0, transition: { duration: 0.8, ease: [0.22, 1, 0.36, 1] } }
+  visivel: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } }
 };
 
 // Aqui eu crio o efeito em cascata (um elemento aparece depois do outro)
-const animacaoEmCascata = {
+const animacaoEmCascata: Variants = {
   escondido: { opacity: 0 },
   visivel: {
     opacity: 1,
