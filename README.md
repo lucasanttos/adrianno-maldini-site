@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Adrianno Maldini | Advogado Criminalista ⚖️
 
-## Getting Started
+Uma Landing Page Premium e de alta conversão desenvolvida para o Dr. Adrianno Maldini, Sócio Fundador do Maldini Advogados. Focada em transmitir autoridade, prestígio e excelência na atuação em Direito Penal de Alta Complexidade e Tribunal do Júri.
 
-First, run the development server:
+🚀 Tecnologias Utilizadas
 
-```bash
+Este projeto foi construído com as tecnologias mais modernas e performáticas do mercado web atual:
+
+Next.js (App Router) - Framework React para renderização rápida e otimização de SEO.
+
+React - Biblioteca JavaScript para construção de interfaces de utilizador.
+
+Tailwind CSS - Framework de CSS utilitário para um design responsivo e luxuoso (Dark Mode).
+
+Framer Motion - Biblioteca de animações fluidas para React (Efeito Ken Burns, Fade In, etc.).
+
+Lucide React - Ícones SVG bonitos e consistentes.
+
+✨ Funcionalidades e Destaques
+
+Design Mobile-First & Premium: Interface adaptada para todos os ecrãs (telemóvel, tablet e desktop) com uma paleta de cores Deep Charcoal e Âmbar/Dourado.
+
+Conversão Direta (WhatsApp): Botões estratégicos com chamadas para ação (CTA) que abrem diretamente o WhatsApp do Dr. Adrianno, já com mensagens pré-configuradas.
+
+SEO Sênior Avançado: Configuração completa de Metadata, Open Graph (para partilhas ricas no WhatsApp/LinkedIn com miniatura) e integração com o motor de busca do Google.
+
+Animações de Alto Nível: Efeitos de surgimento (fade-in-up) em cascata e transição de imagens cruzadas com efeito zoom out na fotografia principal.
+
+Integração Geográfica: Link direto para o Google Maps no rodapé para facilitar a deslocação física dos clientes à sede do escritório.
+
+🛠️ Como correr o projeto localmente
+
+Siga os passos abaixo para executar o site no seu computador:
+
+Clone o repositório:
+
+git clone [https://github.com/SEU_UTILIZADOR/adrianno-maldini-site.git](https://github.com/SEU_UTILIZADOR/adrianno-maldini-site.git)
+cd adrianno-maldini-site
+
+
+Instale as dependências:
+
+npm install
+
+
+Inicie o servidor de desenvolvimento:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Abra o navegador:
+Visite http://localhost:3000 para ver o resultado.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📂 Estrutura de Ficheiros Relevantes
 
-## Learn More
+app/page.tsx: Componente principal que contém toda a estrutura da Landing Page.
 
-To learn more about Next.js, take a look at the following resources:
+app/layout.tsx: Configurações de layout global, fontes elegantes (Inter e Playfair Display) e otimização SEO.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+tailwind.config.ts: Configuração das fontes customizadas e do tema do Tailwind.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+public/: Diretório que armazena as fotografias do Doutor (adr.jpg, adr1.jpg) e outras assets.
 
-## Deploy on Vercel
+🌐 Publicação (Deploy)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Este projeto está pronto a ser publicado gratuitamente em plataformas de alojamento modernas. A plataforma recomendada para projetos Next.js é a Vercel.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Crie uma conta na Vercel.
+
+Importe o seu repositório do GitHub.
+
+A Vercel fará o build e publicará o site automaticamente a cada novo commit na branch main.
+
+Desenvolvido com excelência por uicode.site
