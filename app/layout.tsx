@@ -28,13 +28,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://maldiniadvogados.com.br", // Altere futuramente para o domínio real
+    url: "https://adriannomaldini.vercel.app/",  
     title: "Adrianno Maldini | Advogado Criminalista",
     description: "Atuação estratégica e excelência em Direito Penal de Alta Complexidade.",
     siteName: "Adrianno Maldini",
     images: [
       {
-        url: "/adr22.png", // Usando a imagem que você já tem na pasta public
+        url: "/adr22.png", 
         width: 1200,
         height: 630,
         alt: "Dr. Adrianno Maldini - Advogado Criminalista",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Adrianno Maldini | Advogado Criminalista",
     description: "Atuação estratégica e excelência em Direito Penal de Alta Complexidade.",
-    images: ["/adr.jpg"], // Garante que fique bonito também se enviarem no Twitter/X
+    images: ["/adr22.png"], // Garante que fique bonito também se enviarem no Twitter/X
   },
   robots: {
     index: true,
