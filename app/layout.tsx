@@ -27,26 +27,26 @@ export const metadata: Metadata = {
   keywords: ["Advogado Criminalista", "Tribunal do Júri", "Direito Penal", "Natal", "Rio Grande do Norte", "Advocacia de Alta Complexidade"],
   authors: [{ name: "Adrianno Maldini" }],
   openGraph: {
-    type: "website",
-    locale: "pt_BR",
-    url: "https://adriannomaldini.vercel.app/",  
-    title: "Adrianno Maldini | Advogado Criminalista",
-    description: "Atuação estratégica e excelência em Direito Penal de Alta Complexidade.",
-    siteName: "Adrianno Maldini",
-    images: [
-      {
-         url: "https://adriannomaldini.vercel.app/adr22.png", 
-        width: 1200,
-        height: 630,
-        alt: "Dr. Adrianno Maldini - Advogado Criminalista",
-      },
-    ],
-  },
+  type: "website",
+  locale: "pt_BR",
+  url: "https://adriannomaldini.vercel.app/",
+  title: "Adrianno Maldini | Advogado Criminalista",
+  description: "Atuação estratégica e excelência em Direito Penal de Alta Complexidade.",
+  siteName: "Adrianno Maldini",
+  images: [
+    {
+      url: "/adr1.jpg", // melhor usar relativo
+      width: 1200,
+      height: 630,
+      alt: "Dr. Adrianno Maldini - Advogado Criminalista",
+    },
+  ],
+},
   twitter: {
     card: "summary_large_image",
     title: "Adrianno Maldini | Advogado Criminalista",
     description: "Atuação estratégica e excelência em Direito Penal de Alta Complexidade.",
-     images: ["https://adriannomaldini.vercel.app/adr22.png"], 
+     images: ["https://adriannomaldini.vercel.app/adr1.jpg"], 
   },
   robots: {
     index: true,
