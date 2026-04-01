@@ -16,7 +16,7 @@ const meusDados = {
   nome: "Adrianno Maldini",
   cargo: "Arquiteto da Liberdade & Estrategista Criminal", // Como eu me apresento no site
   telefoneFormatado: "(84) 9970-2095", // Meu telefone que aparece escrito na tela
-  email: "contato@maldiniadvogados.com.br", // Meu e-mail de contato
+  email: "maldiniadvogados@gmail.com", // Meu e-mail de contato
   endereco: "Natal, Rio Grande do Norte, CEP 59064-320", // Meu endereço físico
   sala: "Sala 205", // Complemento do meu endereço
   escritorio: "Maldini Advogados", // Nome do meu escritório
