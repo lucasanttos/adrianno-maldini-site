@@ -102,13 +102,13 @@ const stagger: Variants = {
   visible: { transition: { staggerChildren: 0.12, delayChildren: 0.1 } }
 };
 
-const mobileMenuVariants = {
+const mobileMenuVariants: Variants = {
   hidden: { opacity: 0, y: "-100%" },
   visible: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 70, damping: 20, staggerChildren: 0.1, delayChildren: 0.2 } },
   exit: { opacity: 0, y: "-100%", transition: { duration: 0.4, ease: "easeInOut" } }
 };
 
-const mobileItemVariants = {
+const mobileItemVariants: Variants = {
   hidden: { opacity: 0, y: 20 },
   visible: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 100 } }
 };
